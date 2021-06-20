@@ -1,6 +1,6 @@
 # HowToKernel
 
-This repository is hosted with the aim of having a straightforward way to get started with kernel exploitaion in Linux OS.
+Here are my solutions for [these kernel exploit challenges](https://github.com/R3x/How2Kernel)
 
 ## Setup the environment
  
