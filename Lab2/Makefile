@@ -1,7 +1,7 @@
 ifneq (${KERNELRELEASE},)
 obj-m += ioctl.o
 obj-m += chardev.o
-# Assignment module here
+obj-m += assignment.o
 else
 KERNEL_SOURCE := ../kernel_source/linux-4.18.16/
 PWD := $(shell pwd)
