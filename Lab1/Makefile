@@ -4,6 +4,7 @@ obj-m += hello2.o
 obj-m += hello3.o
 obj-m += hello4.o
 obj-m += hello5.o
+obj-m += assignment.o
 # Assignment module here
 else
 KERNEL_SOURCE := ../kernel_source/linux-4.18.16/
