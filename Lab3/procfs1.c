@@ -14,7 +14,7 @@ struct proc_dir_entry *Our_Proc_File;
 
 static ssize_t hello_read(struct file *file, char __user *buf, size_t size, loff_t *ppos)
 {
-  static int flag = 0; 
+  static int flag = 0;
   if(flag) {
     printk(KERN_INFO "hello_read : END\n");
     flag = 0;
